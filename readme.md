@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a simple repository in which I am using to learn the basics from Ruby using (this tutorial)[https://www.youtube.com/watch?v=t_ispmWmdjY] from FreeCodeCamp.org
+This is a simple repository in which I am using to learn the basics from Ruby using [this tutorial](https://www.youtube.com/watch?v=t_ispmWmdjY) from FreeCodeCamp.org
 
 ## Content Listing
 
