@@ -1,7 +1,5 @@
 # Variables
 # Variables are used to store data, such as numbers or strings.
-# Variables are defined by the dollar sign ($) followed by the variable name.
-# Variables can be assigned a value using the equals sign (=).
 # Example:
 
 # Define a variable named 'name' and assign it the value "John"
