@@ -8,6 +8,10 @@ puts "Hello, my name is #{name}"
 name = "Jane"
 puts "Hello, my name is #{name}"
 
+# Clear the variable 'name'
+name = nil
+puts "Hello, my name is #{name}"
+
 # Output:
 # Hello, my name is John
 # Hello, my name is Jane
@@ -48,3 +52,20 @@ last_name = "Doe"
 full_name = first_name + " " + last_name
 
 puts "My full name is #{full_name}"
+
+# Differently from Javascript, Ruby defines a const variable using UPPERCASE letters.
+# Defining a Name constant:
+
+NAME = "John"
+puts "My name is #{NAME}"
+
+# Output:
+# My name is John
+
+#Trying to change the value of a constant will raise an error:
+NAME = "Jane"
+puts "My name is #{NAME}"
+
+# Output:
+# variables.rb:62 warning: already initialized constant NAME
+# variables.rb:55: warning: previous definition of NAME was here
