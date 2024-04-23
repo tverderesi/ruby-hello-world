@@ -12,7 +12,7 @@ def run_again()
   end
 end
 
-def addition()
+def addition
   print "Enter first number: "
   a = gets.chomp.to_i
   print "Enter second number: "
@@ -20,7 +20,7 @@ def addition()
   puts "The sum of #{a} and #{b} is #{a + b}."
 end
 
-def subtraction()
+def subtraction
   print "Enter first number: "
   a = gets.chomp.to_i
   print "Enter second number: "
@@ -28,7 +28,7 @@ def subtraction()
   puts "The difference of #{a} and #{b} is #{a - b}."
 end
 
-def multiplication()
+def multiplication
   print "Enter first number: "
   a = gets.chomp.to_i
   print "Enter second number: "
@@ -36,7 +36,7 @@ def multiplication()
   puts "The product of #{a} and #{b} is #{a * b}."
 end
 
-def division()
+def division
   print "Enter dividend: "
   a = gets.chomp.to_f
   print "Enter divisor: "
@@ -44,7 +44,7 @@ def division()
   puts "The quotient of #{a} divided by #{b} is #{a / b}."
 end
 
-def exponentiation()
+def exponentiation
   print "Enter base: "
   a = gets.chomp.to_i
   print "Enter exponent: "
@@ -52,41 +52,38 @@ def exponentiation()
   puts "#{a} raised to the power of #{b} is #{a ** b}."
 end
 
-
-def absolute_value()
+def absolute_value
   print "Enter a number: "
   a = gets.chomp.to_i
   puts "The absolute value of #{a} is #{a.abs}."
 end
 
-def square_root()
+def square_root
   print "Enter a number: "
   a = gets.chomp.to_i
   puts "The square root of #{a} is #{Math.sqrt(a)}."
 end
 
-def eval_expression()
+def eval_expression
   print "Enter an expression: "
   expression = gets.chomp
   result = eval(expression)
   puts "The result of the expression #{expression} is #{result}."
 end
 
-
-
-def main()
+def main
   operations = {
-  1 => "Addition",
-  2 => "Subtraction",
-  3 => "Multiplication",
-  4 => "Division",
-  5 => "Exponentiation",
-  6 => "Absolute Value",
-  7 => "Square Root",
-  8 => "Eval",
-  9 => "Exit"
-}
-  2.times { print "\n"}
+    1 => "Addition",
+    2 => "Subtraction",
+    3 => "Multiplication",
+    4 => "Division",
+    5 => "Exponentiation",
+    6 => "Absolute Value",
+    7 => "Square Root",
+    8 => "Eval",
+    9 => "Exit",
+  }
+  2.times { print "\n" }
   puts "Simple Calculator"
   20.times { print "-" }
   print "\n"
@@ -94,7 +91,7 @@ def main()
     puts "#{key}. #{value}"
   end
   print "Enter your choice: "
-  choice = gets.chomp.to_i;
+  choice = gets.chomp.to_i
 
   case choice
   when 1
@@ -128,10 +125,8 @@ def main()
   else
     puts "Invalid choice. Please try again."
   end
-
-
 end
 
 while should_run
- main()
+  main()
 end
