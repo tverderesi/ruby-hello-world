@@ -1,15 +1,29 @@
 # Mad Libs Game
 
-should_run = true
+def start_over
+  puts "Start over? (y/n)"
+
+  response = gets.chomp
+
+  if response == "y"
+    main
+  elsif response == "n"
+    puts "Goodbye!"
+
+    exit
+  else
+    puts "Invalid response."
+
+    start_over
+  end
+end
 
 def main
   puts "Welcome to Mad Libs!"
 
-  prompts = ["Number", "Unit of time", "Mode of transportation", "Adjective",
-
-             "Adjective", "Noun", "Colour", "Part of the body (plural)", "Verb", "Number", "Noun", "Noun", "Part of the body",
-
-             "Verb", "Plural Noun", "Adjective", "Silly Word", "Noun"]
+  prompts = ["Number", "Unit of time", "Mode of transportation", "Adjective", "Adjective", "Noun", "Colour",
+             "Part of the body (plural)", "Verb", "Number", "Noun", "Noun", "Part of the body", "Verb", "Plural Noun",
+             "Adjective", "Silly Word", "Noun"]
 
   words = []
 
@@ -19,8 +33,8 @@ def main
     words << gets.chomp
   end
 
-  puts "It was about #{words[0]} #{words[1]} ago when I came to the hospital in a #{words[2]}.
-  The hospital is a/an #{words[3]} place, there are a lot of #{words[4]} #{words[5]} here.
+  puts "It was about #{words[0]} #{words[1]} ago when I came to the hospital in a #{words[2]}. The hospital is a/an
+  #{words[3]} place, there are a lot of #{words[4]} #{words[5]} here.
   There are nurses here who have #{words[6]} #{words[7]}. If someone wants to come into my room
   I told them that they have to #{words[8]} first. I have decorated my room with #{words[9]}
   #{words[10]}. Today a doctor came into my room and they were wearing a #{words[11]} on their
@@ -29,21 +43,7 @@ def main
 
   puts "Thank you for playing Mad Libs!"
 
-  puts "Start over? (y/n)"
-
-  response = gets.chomp
-
-  if response == "y"
-    main()
-  elsif response == "n"
-    puts "Goodbye!"
-    should_run = false
-    exit
-  else
-    puts "Invalid response."
-  end
+  start_over
 end
 
-while should_run
-  main()
-end
+main
