@@ -20,12 +20,12 @@ This is a simple repository in which I am using to learn the basics from Ruby us
 12. [x] Building a Mad Libs Game
 13. [x] Arrays
 14. [x] Hashes
-15. [ ] Methods
-16. [ ] Return Statement
-17. [ ] If Statements
-18. [ ] If Statements (continued)
-19. [ ] Building a Better Calculator
-20. [ ] Case Expressions
+15. [x] Methods
+16. [x] Return Statement
+17. [x] If Statements
+18. [x] If Statements (continued)
+19. [x] Building a Better Calculator
+20. [x] Case Expressions
 21. [ ] While Loops
 22. [ ] Building a Guessing Game
 23. [ ] For Loops
