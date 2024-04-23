@@ -6,38 +6,38 @@ This is a simple repository in which I am using to learn the basics from Ruby us
 
 ## Content Listing
 
-1. [x] Introduction
-2. [x] Windows Installation
-3. [x] Mac Installation
-4. [x] Hello World / Setup
-5. [x] Drawing a Shape
-6. [x] Variables
-7. [x] Data Types
-8. [x] Working With Strings
-9. [x] Math & Numbers
-10. [x] Getting User Input
-11. [x] Building a Calculator
-12. [x] Building a Mad Libs Game
-13. [x] Arrays
-14. [x] Hashes
-15. [x] Methods
-16. [x] Return Statement
-17. [x] If Statements
-18. [x] If Statements (continued)
-19. [x] Building a Better Calculator
-20. [x] Case Expressions
-21. [ ] While Loops
-22. [ ] Building a Guessing Game
-23. [ ] For Loops
-24. [ ] Exponent Method
-25. [ ] Comments
-26. [ ] Reading Files
-27. [ ] Writing Files
-28. [ ] Handling Errors
-29. [ ] Classes & Objects
-30. [ ] Initialize Method
-31. [ ] Object Methods
-32. [ ] Building a Quiz
-33. [ ] Inheritance
-34. [ ] Modules
-35. [ ] Interactive Ruby (irb)
+- [x] 1. Introduction
+- [x] 2. Windows Installation
+- [x] 3. Mac Installation
+- [x] 4. Hello World / Setup
+- [x] 5. Drawing a Shape
+- [x] 6. Variables
+- [x] 7. Data Types
+- [x] 8. Working With Strings
+- [x] 9. Math & Numbers
+- [x] 10. Getting User Input
+- [x] 11. Building a Calculator
+- [x] 12. Building a Mad Libs Game
+- [x] 13. Arrays
+- [x] 14. Hashes
+- [x] 15. Methods
+- [x] 16. Return Statement
+- [x] 17. If Statements
+- [x] 18. If Statements (continued)
+- [x] 19. Building a Better Calculator
+- [x] 20. Case Expressions
+- [ ] 21. While Loops
+- [ ] 22. Building a Guessing Game
+- [ ] 23. For Loops
+- [ ] 24. Exponent Method
+- [ ] 25. Comments
+- [ ] 26. Reading Files
+- [ ] 27. Writing Files
+- [ ] 28. Handling Errors
+- [ ] 29. Classes & Objects
+- [ ] 30. Initialize Method
+- [ ] 31. Object Methods
+- [ ] 32. Building a Quiz
+- [ ] 33. Inheritance
+- [ ] 34. Modules
+- [ ] 35. Interactive Ruby (irb)
