@@ -15,11 +15,11 @@ This is a simple repository in which I am using to learn the basics from Ruby us
 7. [x] Data Types
 8. [x] Working With Strings
 9. [x] Math & Numbers
-10. [ ] Getting User Input
-11. [ ] Building a Calculator
-12. [ ] Building a Mad Libs Game
-13. [ ] Arrays
-14. [ ] Hashes
+10. [x] Getting User Input
+11. [x] Building a Calculator
+12. [x] Building a Mad Libs Game
+13. [x] Arrays
+14. [x] Hashes
 15. [ ] Methods
 16. [ ] Return Statement
 17. [ ] If Statements
