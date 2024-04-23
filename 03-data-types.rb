@@ -1,7 +1,6 @@
 # Data Types
 # Ruby has a rich set of built-in types, including:
 
-
 # Strings
 name = "Jane"
 puts "Hello, my name is #{name}."
@@ -59,7 +58,7 @@ they are similar to Arrays, but where an Array uses integers as its index, a Has
 
 person = {
   "name" => "John",
-  "age" => 25
+  "age" => 25,
 }
 puts "My name is #{person["name"]} and I am #{person["age"]} years old."
 

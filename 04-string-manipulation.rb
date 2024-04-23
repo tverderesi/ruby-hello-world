@@ -114,7 +114,7 @@ You can use the slice method to extract a substring from a string by specifying 
 =end
 
 name = "Jane Doe"
-puts "The first three characters of my name are #{name[0,3]}."
+puts "The first three characters of my name are #{name[0, 3]}."
 
 # if you use .. can include the value
 
