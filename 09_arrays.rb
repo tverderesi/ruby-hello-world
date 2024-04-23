@@ -1,10 +1,10 @@
 # Arrays
-=begin
-  Arrays are ordered, integer-indexed collections of any object.
-  Array indexing starts at 0, as in C or Java.
-  A negative index is assumed to be relative to the end of the array—that is, an index of -1 indicates the last element of the array, -2 is the next to last element in the array, and so on.
-  You can create an array by calling Array or a literal constructor.
-=end
+
+# Arrays are ordered, integer-indexed collections of any object.
+# Array indexing starts at 0, as in C or Java.
+# A negative index is assumed to be relative to the end of the array—that is, an index of -1 indicates the last element
+# of the array, -2 is the next to last element in the array, and so on.
+# You can create an array by calling Array or a literal constructor.
 
 # Creating Arrays with Literals
 array = [1, "Bob", 4.33, "another string", true]
@@ -55,7 +55,7 @@ print array.reverse
 # Sorting Arrays
 # You can only sort arrays of the same type.
 # If you try to sort an array with different types, you will get an error.
-print names.sort()
+print names.sort
 # Output: AliceBobJohn
-print array.sort()
+print array.sort
 # Output: comparison of Float with String failed (ArgumentError)
