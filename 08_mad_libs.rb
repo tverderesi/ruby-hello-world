@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Mad Libs Game
 
 should_run = true
