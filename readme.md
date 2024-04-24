@@ -26,8 +26,8 @@ This is a simple repository in which I am using to learn the basics from Ruby us
 - [x] 18. If Statements (continued)
 - [x] 19. Building a Better Calculator
 - [x] 20. Case Expressions
-- [ ] 21. While Loops
-- [ ] 22. Building a Guessing Game
+- [x] 21. While Loops
+- [x] 22. Building a Guessing Game
 - [ ] 23. For Loops
 - [ ] 24. Exponent Method
 - [ ] 25. Comments
