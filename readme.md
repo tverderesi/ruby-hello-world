@@ -33,7 +33,7 @@ This is a simple repository in which I am using to learn the basics from Ruby us
 - [x] 25. Comments
 - [x] 26. Reading Files
 - [x] 27. Writing Files
-- [ ] 28. Handling Errors
+- [x] 28. Handling Errors
 - [ ] 29. Classes & Objects
 - [ ] 30. Initialize Method
 - [ ] 31. Object Methods
