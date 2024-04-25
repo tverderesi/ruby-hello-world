@@ -31,8 +31,8 @@ This is a simple repository in which I am using to learn the basics from Ruby us
 - [x] 23. For Loops
 - [x] 24. Exponent Method
 - [x] 25. Comments
-- [ ] 26. Reading Files
-- [ ] 27. Writing Files
+- [x] 26. Reading Files
+- [x] 27. Writing Files
 - [ ] 28. Handling Errors
 - [ ] 29. Classes & Objects
 - [ ] 30. Initialize Method
